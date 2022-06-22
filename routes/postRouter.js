@@ -28,7 +28,7 @@ router.post('/accommodations', upload.array("images", 5), async (req, res) => {
                 return file.location;
             }),
 
-            nickname : "세화",
+            nickname : "yushin",
 
             fee, title, house_name, content, address, category
         }).save();
